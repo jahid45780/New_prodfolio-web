@@ -41,6 +41,7 @@ const SkillsSection = () => {
         "javascript",
         "React",
         "Next.js",
+        "Typescript"
        ],
     },
     {

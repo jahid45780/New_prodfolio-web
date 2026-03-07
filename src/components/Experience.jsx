@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import React from "react";
 import { Code2, Activity, Cpu, Layers, Network, Binary } from "lucide-react";
 
@@ -54,30 +56,15 @@ const ExperienceCard = ({
 
 const ExperienceSection = () => {
   const experiences = [
-    {
-      icon: Network,
-      title: "WordPress Developer",
-      company: "Fiverr",
-      period: "2019 - 2020",
-      description:
-        "Worked on developing and customizing WordPress websites for clients globally.",
-    },
-    {
-      icon: Layers,
-      title: "Junior Frontend Developer",
-      company: "Sera Programmer",
-      period: "2021 - 2023",
-      description:
-        "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
-    },
-    {
-      icon: Code2,
-      title: "JavaScript Developer",
-      company: "OlovJS (Sera Programmer)",
-      period: "2023 - Present",
-      description:
-        "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
-    },
+   {
+  icon: Network,
+  title: "Business Development Executive",
+  company: "Betopia_Group",
+  period: "2024 - 2026",
+  description:
+    "Managed client communication, identified new business opportunities, and coordinated with teams to deliver digital solutions to international clients."
+},
+   
   ];
 
   return (
@@ -97,7 +84,7 @@ const ExperienceSection = () => {
               <div className="absolute inset-0 -z-10 bg-gradient-to-r from-purple-400/30 to-indigo-400/30 blur-xl rounded-xl" />
             </div>
             <p className="text-sm md:text-lg text-gray-400 font-medium italic tracking-wide">
-              "Crafting stories, one milestone at a time..."
+              Crafting stories, one milestone at a time...
             </p>
             <div className="animate-pulse mt-4 w-6 h-6 border-4 border-dashed border-cyan-400 rounded-full" />
           </div>

@@ -9,11 +9,7 @@ const AboutMe = () => {
         <div className="content max-w-2xl">
           <h2 className="text-[#4ECCA3] text-center text-2xl font-bold mb-6">WHO I AM?</h2>
           <p className="text-lg leading-relaxed">
-          I’m Jahid Hossain, a passionate Front-End Developer with expertise in building responsive and user-friendly web applications using modern frameworks like React.js, Next.js, Vue.js, and styling tools such as Tailwind CSS and Ant Design. I specialize in creating dynamic, scalable, and visually appealing web interfaces, ensuring seamless user experiences across devices.
-
-In addition to my development skills, I bring professional experience as an SCM (Supply Chain Management) Executive, where I honed my abilities in process optimization, inventory management, and ensuring efficient supply chain operations. My dual expertise in technology and logistics allows me to approach challenges with both analytical and problem-solving mindsets.
-
-I am passionate about continuous learning, collaborating with teams, and delivering impactful solutions that drive growth and efficiency.
+        I’m MD Jahid, a Full Stack Developer with a strong focus on Backend Development. I build scalable web applications using the MERN Stack, while also creating responsive and modern user interfaces with React, Next.js, and Tailwind CSS. I’m passionate about building efficient systems, writing clean code, and delivering high-quality software.
           </p>
         </div>
         <div>

@@ -6,7 +6,7 @@ const Orbit = () => {
               <div className="container">
         <div className="hero-circle">
               
-              <img className="inner-img h-full w-full rounded-full"  src="https://i.ibb.co.com/0Jwqtqg/profile.jpg" alt="Jahid" />
+              <img className="inner-img h-full w-full rounded-full"  src="https://i.ibb.co.com/Zp51yZbS/Chat-GPT-Image-Mar-7-2026-11-44-40-PM.png" alt="Jahid" />
           <div className="hero-rotate" id="circle">
        
             <div className="planet">

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import EducationLoader from "./ui/EducationLoader";
 import { Star, Award, Calendar } from "lucide-react";
@@ -8,16 +9,22 @@ const EducationSection = () => {
   const educationData = [
     {
       degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      school: "Barguna Technical School And College",
       mascot: "📘",
-      achievements: ["GPA: 4.89", "Subject: Science"],
+      achievements: ["GPA: 4.61", "Subject: Science"],
     },
     {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      degree: "Diploma in Engineering",
+      school: "Narsingdi Polytechnic Institute",
       mascot: "📗",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
+      achievements: ["CGPA: 3.46", "Subject: Computer"],
     },
+    {
+  degree: "BSc in Computer Engineering",
+  school: "Prime University",
+  mascot: "💻",
+  achievements: ["Started: 2025", "Expected Graduation: 2029"],
+},
   ];
 
   return (
