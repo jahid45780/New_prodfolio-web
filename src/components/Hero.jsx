@@ -216,9 +216,12 @@ const profile = {
               </div>
             </div>
           </div>
+          
         </section>
         <PortfolioPage />
       </main>
     </>
   );
 }
+
+
